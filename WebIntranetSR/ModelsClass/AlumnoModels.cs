@@ -15,7 +15,7 @@ namespace WebIntranetSR.ModelsClass
         public AlumnoModels(ApplicationDbContext context)
         {
             this.context = context;
-            filtrarDatos(1, "47266593");
+            //filtrarDatos(1, "47266593");
 
         }
 
@@ -75,8 +75,9 @@ namespace WebIntranetSR.ModelsClass
             }
             else
             {
-                query = alumno.Where(c => c.Nombre.StartsWith(valor) || c.DNI.StartsWith(valor))
-                .Skip(inicio).Take(reg_por_pagina);
+                /*query = alumno.Where(c => c.Nombre.StartsWith(valor) || c.DNI.StartsWith(valor))
+                .Skip(inicio).Take(reg_por_pagina);*/
+                query = alumno;
                 
             }
             cant = query.Count();

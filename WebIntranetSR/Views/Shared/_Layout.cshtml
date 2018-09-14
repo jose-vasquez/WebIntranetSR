@@ -26,13 +26,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">WebIntranetSR</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">
+                    <img src="~/images/logo.png"  width="30" height="30"  class="d-inline-block align-top" style="display: inline-block">
+                     San Rafael
+                </a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Inicio</a></li>
+                    <!--
+                    <li><a asp-area="" asp-controller="Home" asp-action="About">Nosotros</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contactanos</a></li>
+                    -->
                     <li><a asp-area="" asp-controller="Alumnoes" asp-action="Index">Alumnos</a></li>
                 </ul>
                 @await Html.PartialAsync("_LoginPartial")
@@ -43,7 +48,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2018 - WebIntranetSR</p>
+            <p>&copy; 2018 - San Rafael</p>
         </footer>
     </div>
 

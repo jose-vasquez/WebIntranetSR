@@ -266,8 +266,21 @@ var filtrarDatos = (numPagina) =>
 {
     var valor = document.getElementById("filtrar").value;
     var action = 'Alumnoes/filtrarDatos';
-    var alumno = new Alumno(valor, "", "", action);
+    var alumno = new Alumno('nombre', 
+                            'apellPa', 
+                            'apellMa', 
+                            'dni', 
+                            'grado', 
+                            'seccion',
+                            'edad', 
+                            'direccion', 
+                            'ubigeo', 
+                            'estado', 
+                            action);
+    console.log('Objeto:  ' + Object.values(alumno));
+    
     alumno.filtrarDatos(numPagina);
+    //alumno.saludo();
 
 }
 

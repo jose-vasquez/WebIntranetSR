@@ -46,3 +46,15 @@ C:\Users\jvasquez\Downloads\WebIntranetSR\WebIntranetSR\WebIntranetSR\obj\Debug\
 C:\Users\jvasquez\Downloads\WebIntranetSR\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.AssemblyInfo.cs
 C:\Users\jvasquez\Downloads\WebIntranetSR\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.dll
 C:\Users\jvasquez\Downloads\WebIntranetSR\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.pdb
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.deps.json
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.runtimeconfig.json
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.runtimeconfig.dev.json
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.dll
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.pdb
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.csproj.CoreCompileInputs.cache
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.AssemblyInfoInputs.cache
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.AssemblyInfo.cs
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.dll
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.pdb
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.csprojAssemblyReference.cache

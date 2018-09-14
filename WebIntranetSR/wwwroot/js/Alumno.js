@@ -1,7 +1,16 @@
 ﻿
 class Alumno {
-    constructor(nombre, apellPa, apellMa, dni, grado, seccion,
-        edad, direccion, ubigeo, estado , action)
+    constructor(nombre, 
+                apellPa, 
+                apellMa, 
+                dni, 
+                grado, 
+                seccion,
+                edad, 
+                direccion, 
+                ubigeo, 
+                estado, 
+                action)
     {
         this.nombre = nombre;
         this.apellPa = apellPa;
@@ -16,14 +25,59 @@ class Alumno {
         this.action = action;
 
     }
+    saludo()
+    {
+        console.log('Hola, la clase alumno funciona correctamente');
+    }
+    
+    filtrarDatos(numPagina)
+    {
+        var valor = this.nombre;
+        var action = this.action;
+        console.log('action' + action);
+        if (valor == "")
+        {
+            valor = null;
 
+        }
+
+        $.ajax({
+            type: "POST",
+            url: action,
+            data: { valor, numPagina },
+            success: (response) => {
+                console.log(response);
+
+                $.each(response,(index, val) => {
+                    $("#resultSearch").html(val[0]);
+                    $("#paginado").html(val[1]);
+                });
+            }
+        });
+
+    }
+    restablecer()
+    {
+        document.getElementById("Nombre").value = "";
+        document.getElementById("ApellPa").value = "";
+        document.getElementById("ApellMa").value = "";
+        document.getElementById("DNI").value = "";
+        document.getElementById("Grado").value = "";
+        document.getElementById("Seccion").value = "";
+        document.getElementById("Edad").value = 0;
+        document.getElementById("Direccion").value = "";
+        document.getElementById("Ubigeo").value = 0;
+        document.getElementById("Estado").value = 0;
+
+        $('#modalAalumno').modal('hide');
+        filtrarDatos(1);
+    }
     agregarAlumno() {
         if (this.nombre == "") {
             document.getElementById("Nombre").focus();
 
 
-        } else
-        {
+        } else         {
             if (this.apellPa == "") {
                 document.getElementById("ApellPa").focus();
 
@@ -74,7 +128,7 @@ class Alumno {
 
                                     $.each(response, (index, val) => {
                                         mensaje = val.code;
-
+                                        console.log(mensaje);
                                     });
                                     if (mensaje == "Save") {
                                         this.restablecer();
@@ -99,64 +153,8 @@ class Alumno {
                 }
 
             }
-
-            filtrarDatos(numPagina)
-            {
-                var valor = this.nombre;
-                var action = this.action;
-
-                if (valor == "")
-                {
-                    valor = null;
-
-                }
-
-                $.ajax({
-                    type: "POST",
-                    url: action,
-                    data: { valor, numPagina },
-                    success: (response) => {
-                        console.log(response);
-
-                        $.each(response,(index, val) => {
-                            $("#resultSearch").html(val[0]);
-                            $("#paginado").html(val[1]);
-
-
-                        });
-
-
-
-                    }
-
-
-
-                });
-
-            }
-
-
-            restablecer()
-            {
-                document.getElementById("Nombre").value = "";
-                document.getElementById("ApellPa").value = "";
-                document.getElementById("ApellMa").value = "";
-                document.getElementById("DNI").value = "";
-                document.getElementById("Grado").value = "";
-                document.getElementById("Seccion").value = "";
-                document.getElementById("Edad").value = 0;
-                document.getElementById("Direccion").value = "";
-                document.getElementById("Ubigeo").value = 0;
-                document.getElementById("Estado").value = 0;
-
-                $('#modalAalumno').modal('hide');
-
-            }
-
-
         }
-
-        
+      
 
     }
 
