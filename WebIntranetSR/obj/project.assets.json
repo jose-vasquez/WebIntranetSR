@@ -13260,23 +13260,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JRodriguez\\.nuget\\packages\\": {},
+    "C:\\Users\\jvasquez\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JRodriguez\\Downloads\\WebIntranetSR\\WebIntranetSR\\WebIntranetSR.csproj",
+      "projectUniqueName": "C:\\Users\\jvasquez\\Documents\\bitbucket\\WebIntranetSR\\WebIntranetSR\\WebIntranetSR.csproj",
       "projectName": "WebIntranetSR",
-      "projectPath": "C:\\Users\\JRodriguez\\Downloads\\WebIntranetSR\\WebIntranetSR\\WebIntranetSR.csproj",
-      "packagesPath": "C:\\Users\\JRodriguez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JRodriguez\\Downloads\\WebIntranetSR\\WebIntranetSR\\obj\\",
+      "projectPath": "C:\\Users\\jvasquez\\Documents\\bitbucket\\WebIntranetSR\\WebIntranetSR\\WebIntranetSR.csproj",
+      "packagesPath": "C:\\Users\\jvasquez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jvasquez\\Documents\\bitbucket\\WebIntranetSR\\WebIntranetSR\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\JRodriguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jvasquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -1,0 +1,284 @@
+﻿@model IEnumerable<WebIntranetSR.Models.Alumno>
+
+@{
+    ViewData["Title"] = "Index Admisión";
+}
+
+<h2>Index Admisión</h2>
+
+<p>
+    <a data-toggle="modal" data-target="#modalAalumno" class="btn btn-info" href="#">Create Nuevo Alumno</a>
+</p>
+<div class="form-group">
+    <div class="col-md-6">
+        <input id="filtrar" name="filtrar" placeholder="Buscar" onkeyup="filtrarDatos(1);" class="form-control" />
+    </div>
+</div>
+
+<!--<a href="~/Views/Alumnoes/Index.cshtml">~/Views/Alumnoes/Index.cshtml</a>-->
+@*<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Nombre
+            </th>
+            <th>
+                Ap. Paterno
+            </th>
+            <th>
+                Ap. Materno
+            </th>
+            <th>
+                DNI
+            </th>
+            <th>
+                Grado
+            </th>
+            <th>
+                Seccion
+            </th>
+            <th>
+                Edad
+            </th>
+            <th>
+                Dirección
+            </th>
+            <th>
+                Ubigeo
+            </th>
+            <th>
+                Estado
+            </th>
+            <th>Editar</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ApellPa)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ApellMa)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DNI)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Grado)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Seccion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Edad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Direccion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ubigeo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Estado)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.AlumnoID">Edit</a> 
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.AlumnoID">Details</a>
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@item.AlumnoID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>*@
+<table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Nombre
+                </th>
+                <th>
+                    Ap. Paterno
+                </th>
+                <th>
+                    Ap. Materno
+                </th>
+                <th>
+                    DNI
+                </th>
+                <th>
+                    Grado
+                </th>
+                <th>
+                    Seccion
+                </th>
+                <th>
+                    Edad
+                </th>
+                <th>
+                    Dirección
+                </th>
+                <th>
+                    Ubigeo
+                </th>
+                <th>
+                    Estado
+                </th>
+                <th>Editar</th>
+                <th>Eliminar</th>
+            </tr>
+        </thead>
+        <tbody id="resultSearch"></tbody>
+
+    </table>
+    <div id="paginado">
+
+    </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="modalAalumno" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Agregar Alumno</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-horizontal">
+
+                        <div class="form-group">
+                            <label for="Nombre" class="col-md-2 control-label">Nombre</label>
+                            <div class="col-md-10">
+                                <input for="Nombre" id="Nombre" placeholder="Nombre" name="Nombre" class="form-control" />
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="ApellPa" class="col-md-2 control-label">Apellido Paterno</label>
+                            <div class="col-md-10">
+                                <input for="ApellPa" id="ApellPa" placeholder="Apellido Parterno" name="ApellPa" class="form-control" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="ApellMa" class="col-md-2 control-label">Apellido Materno</label>
+                            <div class="col-md-10">
+                                <input for="ApellMa" id="ApellMa" placeholder="Apellido Materno" name="ApellMa" class="form-control" />
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="DNI" class="col-md-2 control-label">Documento de Identidad</label>
+                            <div class="col-md-10">
+                                <input for="DNI" id="DNI" placeholder="Documento Identidad" name="DNI" class="form-control" />
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Grado" class="col-md-2 control-label">Grado</label>
+                            <div class="col-md-10">
+                                <input readonly for="Grado" id="Grado" placeholder="Grado" name="Grado" class="form-control" />
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Seccion" class="col-md-2 control-label">Seccion</label>
+                            <div class="col-md-10">
+                                <input readonly for="Seccion" id="Seccion" placeholder="Seccion" name="Seccion" class="form-control" />
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Edad" class="col-md-2 control-label">Edad</label>
+                            <div class="col-md-10">
+                                <input for="Edad" id="Edad" placeholder="Edad" name="Edad" class="form-control" />
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Direccion" class="col-md-2 control-label">direccion</label>
+                            <div class="col-md-10">
+                                <input for="Direccion" id="Direccion" placeholder="direccion" name="Direccion" class="form-control" />
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Ubigeo" class="col-md-2 control-label">Ubigeo</label>
+                            <div class="col-md-10">
+                                <input for="Ubigeo" id="Ubigeo" placeholder="Ubigeo" name="Ubigeo" class="form-control" />
+                            </div>
+
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Estado" class="col-md-2 control-label">Estado</label>
+                            <div class="col-md-10">
+                                <input for="Estado" id="Estado" placeholder="Estado" name="Estado" class="form-control" />
+                            </div>
+
+                        </div>
+                        <label id="mensaje" class="col-md-2 control-label"></label>
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                <button type="button" onclick="agregarAlumno()" class="btn btn-primary" data-target="">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="modalEditar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Editar Usuario</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" name="Id" id="Id" />
+                    <div class="form-group">
+                        <label for="UserName" class="control-label">Usuario</label>
+                        <input readonly name="UserName" id="UserName" class="form-control" />
+                    </div>
+                   <div class="form-group">
+                        <label for="EstadoA" class="control-label">PhoneNumber</label>
+                        <input name="EstadoA" id="EstadoA" class="form-control" />
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" onclick="editarUsuario('Usuarios/EditUsuario')">Guardar Cambios</button>
+
+            </div>
+        </div>
+    </div>
+</div>

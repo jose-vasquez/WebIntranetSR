@@ -1,0 +1,72 @@
+C:\Users\Renzo\source\repos\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.deps.json
+C:\Users\Renzo\source\repos\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.runtimeconfig.json
+C:\Users\Renzo\source\repos\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.runtimeconfig.dev.json
+C:\Users\Renzo\source\repos\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.dll
+C:\Users\Renzo\source\repos\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.pdb
+C:\Users\Renzo\source\repos\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.csproj.CoreCompileInputs.cache
+C:\Users\Renzo\source\repos\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Renzo\source\repos\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.AssemblyInfoInputs.cache
+C:\Users\Renzo\source\repos\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.AssemblyInfo.cs
+C:\Users\Renzo\source\repos\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.dll
+C:\Users\Renzo\source\repos\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.pdb
+C:\Users\Renzo\source\repos\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.csprojAssemblyReference.cache
+C:\repos\WebSR\WebIntranetSR\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.csproj.CoreCompileInputs.cache
+C:\repos\WebSR\WebIntranetSR\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\repos\WebSR\WebIntranetSR\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.AssemblyInfoInputs.cache
+C:\repos\WebSR\WebIntranetSR\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.AssemblyInfo.cs
+C:\repos\WebSR\WebIntranetSR\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.dll
+C:\repos\WebSR\WebIntranetSR\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.pdb
+C:\repos\WebSR\WebIntranetSR\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.deps.json
+C:\repos\WebSR\WebIntranetSR\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.runtimeconfig.json
+C:\repos\WebSR\WebIntranetSR\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.runtimeconfig.dev.json
+C:\repos\WebSR\WebIntranetSR\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.dll
+C:\repos\WebSR\WebIntranetSR\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.pdb
+C:\repos\WebSR\WebIntranetSR\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.csprojAssemblyReference.cache
+C:\Users\Renzo\source\repos\WebIntranetSR 1.3\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.deps.json
+C:\Users\Renzo\source\repos\WebIntranetSR 1.3\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.runtimeconfig.json
+C:\Users\Renzo\source\repos\WebIntranetSR 1.3\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.runtimeconfig.dev.json
+C:\Users\Renzo\source\repos\WebIntranetSR 1.3\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.dll
+C:\Users\Renzo\source\repos\WebIntranetSR 1.3\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.pdb
+C:\Users\Renzo\source\repos\WebIntranetSR 1.3\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.csprojAssemblyReference.cache
+C:\Users\Renzo\source\repos\WebIntranetSR 1.3\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.csproj.CoreCompileInputs.cache
+C:\Users\Renzo\source\repos\WebIntranetSR 1.3\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Renzo\source\repos\WebIntranetSR 1.3\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.AssemblyInfoInputs.cache
+C:\Users\Renzo\source\repos\WebIntranetSR 1.3\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.AssemblyInfo.cs
+C:\Users\Renzo\source\repos\WebIntranetSR 1.3\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.dll
+C:\Users\Renzo\source\repos\WebIntranetSR 1.3\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.pdb
+C:\Users\jvasquez\Downloads\WebIntranetSR\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.deps.json
+C:\Users\jvasquez\Downloads\WebIntranetSR\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.runtimeconfig.json
+C:\Users\jvasquez\Downloads\WebIntranetSR\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.runtimeconfig.dev.json
+C:\Users\jvasquez\Downloads\WebIntranetSR\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.dll
+C:\Users\jvasquez\Downloads\WebIntranetSR\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.pdb
+C:\Users\jvasquez\Downloads\WebIntranetSR\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.csprojAssemblyReference.cache
+C:\Users\jvasquez\Downloads\WebIntranetSR\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.csproj.CoreCompileInputs.cache
+C:\Users\jvasquez\Downloads\WebIntranetSR\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\jvasquez\Downloads\WebIntranetSR\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.AssemblyInfoInputs.cache
+C:\Users\jvasquez\Downloads\WebIntranetSR\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.AssemblyInfo.cs
+C:\Users\jvasquez\Downloads\WebIntranetSR\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.dll
+C:\Users\jvasquez\Downloads\WebIntranetSR\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.pdb
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.deps.json
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.runtimeconfig.json
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.runtimeconfig.dev.json
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.dll
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.pdb
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.csproj.CoreCompileInputs.cache
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.AssemblyInfoInputs.cache
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.AssemblyInfo.cs
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.dll
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.pdb
+C:\Users\JRodriguez\Downloads\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.csprojAssemblyReference.cache
+C:\Users\JRodriguez\Documents\Github\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.deps.json
+C:\Users\JRodriguez\Documents\Github\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.runtimeconfig.json
+C:\Users\JRodriguez\Documents\Github\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.runtimeconfig.dev.json
+C:\Users\JRodriguez\Documents\Github\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.dll
+C:\Users\JRodriguez\Documents\Github\WebIntranetSR\WebIntranetSR\bin\Debug\netcoreapp2.0\WebIntranetSR.pdb
+C:\Users\JRodriguez\Documents\Github\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.csprojAssemblyReference.cache
+C:\Users\JRodriguez\Documents\Github\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.csproj.CoreCompileInputs.cache
+C:\Users\JRodriguez\Documents\Github\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\JRodriguez\Documents\Github\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.AssemblyInfoInputs.cache
+C:\Users\JRodriguez\Documents\Github\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.AssemblyInfo.cs
+C:\Users\JRodriguez\Documents\Github\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.dll
+C:\Users\JRodriguez\Documents\Github\WebIntranetSR\WebIntranetSR\obj\Debug\netcoreapp2.0\WebIntranetSR.pdb
